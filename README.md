@@ -1,9 +1,12 @@
 # Linear Search and Binary search
+
 ## Aim:
 To write a program to perform linear search and binary search using python programming.
+
 ## Equipment’s required:
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
+
 ## Algorithm:
 ## Linear Search:
 1.	Start from the leftmost element of array[] and compare k with each element of array[] one by one.
@@ -16,6 +19,7 @@ To write a program to perform linear search and binary search using python progr
 4.	If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
+
 ## Program:
 Use a linear search method to match the item in a list.
 
@@ -42,6 +46,8 @@ if result==-1:
 else:
     print("Element found at index: ",search(array,key,n))
 ```
+
+
 Find the element in a list using Binary Search(Iterative Method).
 
 DEVELOPED BY: SRIVATSAN G
